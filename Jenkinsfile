@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        DOCKERHUB_USERNAME = 'Maddyanas'
+        DOCKERHUB_USERNAME = 'maddyanas'
         DOCKERHUB_PASSWORD = 'maddy@2004'
-        IMAGE_NAME = 'Maddyanas/eatify'
+        IMAGE_NAME = 'maddyanas/eatify'
         EMAIL_RECIPIENTS = 'maddyanas786@gmail.com' // change to your email
     }
 
